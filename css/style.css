@@ -1,3 +1,108 @@
-*{
-    background-color: blue;
+* {
+  max-width: 1440px;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-container {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  padding: 1rem 2.5439rem;
+}
+
+.griditems1 {
+  width: 13.3556rem;
+  background: url(/logo.png) no-repeat;
+}
+/* .griditems2 { */
+/* display: grid; */
+/* grid-column: span 6; */
+/* grid-template-columns: repeat(6, 1fr); */
+/* } */
+
+input[type="search"] {
+  width: 21.875rem;
+  padding: 1rem 1rem 1rem 3.4375rem;
+  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgaGVpZ2h0PSIyNHB4IiB3aWR0aD0iMjRweCI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXItZ3JhZGllbnQiIHgxPSIyMi4zMSIgeTE9IjIzLjYyIiB4Mj0iMy43MyIgeTI9IjMuMDUiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNlOTM3MjIiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNmODZmMjUiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48dGl0bGU+TWFnbmlmaWVyPC90aXRsZT48cGF0aCBmaWxsPSJ1cmwoI2xpbmVhci1ncmFkaWVudCkiIGQ9Ik0yMy4zMyAyMC4xbC00LjczLTQuNzRhMTAuMDYgMTAuMDYgMCAxIDAtMy4yMyAzLjIzbDQuNzQgNC43NGEyLjI5IDIuMjkgMCAxIDAgMy4yMi0zLjIzem0tMTcuNDgtNS44NGE1Ljk0IDUuOTQgMCAxIDEgOC40MiAwIDYgNiAwIDAgMS04LjQyIDB6Ii8+PC9zdmc+)
+    no-repeat;
+  background-position-y: center;
+  background-position-x: 1rem;
+  background-size: auto;
+}
+
+/* .boxes { */
+/* box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6); */
+/* } */
+
+.items {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+.items:hover {
+  background-color: gray;
+
+  /* color: white; */
+  border-radius: 7px;
+  text-decoration: none;
+  /* margin: 10px; */
+  padding: 10px;
+}
+.posts-container {
+  display: flex;
+  /* margin: 0 1rem; */
+  background: #ddd;
+  margin: 2rem auto;
+  /* height: 179.625rem; */
+  padding: 0 1rem;
+  width: 85.625rem;
+  justify-content: center;
+}
+
+.box {
+  width: 27.625rem;
+  margin: 0 5px;
+  background: darkgoldenrod;
+  padding: 30px 40px 0;
+  height: 22.3125rem;
+  transition: 1s;
+}
+
+.box:hover {
+  padding: 0;
+  background: crimson;
+  transform: scale(1.1);
+}
+
+.middle-comntainer {
+  width: 85.625rem;
+  display: flex;
+  height: 743.08px;
+}
+
+.middle-img {
+  width: 30.9375rem;
+  border: 1px solid gold;
+  padding: 30px;
+}
+.bottompost-container {
+  display: flex;
+  background: #ddd;
+  margin: 2rem auto;
+  /* height: 179.625rem; */
+  padding: 0 1rem;
+  width: 85.625rem;
+  justify-content: center;
+}
+.news {
+  width: 85.625rem;
+  border: 2px solid cornflowerblue;
+  padding: 30px;
+  margin: 0 auto;
+}
+
+.news1 {
+  width: 245px;
 }
