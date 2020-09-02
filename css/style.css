@@ -34,8 +34,7 @@
 input[type="search"] {
   width: 21.875rem;
   padding: 1rem 1rem 1rem 3.4375rem;
-  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgaGVpZ2h0PSIyNHB4IiB3aWR0aD0iMjRweCI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXItZ3JhZGllbnQiIHgxPSIyMi4zMSIgeTE9IjIzLjYyIiB4Mj0iMy43MyIgeTI9IjMuMDUiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNlOTM3MjIiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNmODZmMjUiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48dGl0bGU+TWFnbmlmaWVyPC90aXRsZT48cGF0aCBmaWxsPSJ1cmwoI2xpbmVhci1ncmFkaWVudCkiIGQ9Ik0yMy4zMyAyMC4xbC00LjczLTQuNzRhMTAuMDYgMTAuMDYgMCAxIDAtMy4yMyAzLjIzbDQuNzQgNC43NGEyLjI5IDIuMjkgMCAxIDAgMy4yMi0zLjIzem0tMTcuNDgtNS44NGE1Ljk0IDUuOTQgMCAxIDEgOC40MiAwIDYgNiAwIDAgMS04LjQyIDB6Ii8+PC9zdmc+)
-    no-repeat;
+  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgaGVpZ2h0PSIyNHB4IiB3aWR0aD0iMjRweCI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXItZ3JhZGllbnQiIHgxPSIyMi4zMSIgeTE9IjIzLjYyIiB4Mj0iMy43MyIgeTI9IjMuMDUiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNlOTM3MjIiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNmODZmMjUiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48dGl0bGU+TWFnbmlmaWVyPC90aXRsZT48cGF0aCBmaWxsPSJ1cmwoI2xpbmVhci1ncmFkaWVudCkiIGQ9Ik0yMy4zMyAyMC4xbC00LjczLTQuNzRhMTAuMDYgMTAuMDYgMCAxIDAtMy4yMyAzLjIzbDQuNzQgNC43NGEyLjI5IDIuMjkgMCAxIDAgMy4yMi0zLjIzem0tMTcuNDgtNS44NGE1Ljk0IDUuOTQgMCAxIDEgOC40MiAwIDYgNiAwIDAgMS04LjQyIDB6Ii8+PC9zdmc+) no-repeat;
   background-position-y: center;
   background-position-x: 1rem;
   background-size: auto;
@@ -395,7 +394,7 @@ input[type="search"] {
   width: 250px;
   height: 40px;
   width: 70%;
-  
+
 }
 
 .withouth {
@@ -403,22 +402,68 @@ input[type="search"] {
   height: 78px;
 }
 
-.withouth p{
-  font: 2.25rem
-  line-height: 3rem;
+.withouth p {
+  font: 2.25rem line-height: 3rem;
   text-align: center;
-  margin-top:25px
+  margin-top: 25px
 }
 
-.metmiddle-picture{
+.metmiddle-picture {
   width: 920px;
   height: 517px;
   margin: 0 auto;
   border: 2px solid green;
 }
 
-.metmiddle-picture:hover{
+.metmiddle-picture:hover {
   cursor: pointer;
 }
 
+.person-section {
+  margin: 60px 20px 0px 60px;
+  padding: 0px 16px;
+}
 
+.person-img {
+  width: 240px;
+  height: 256px;
+  margin: 0 55px 20px 0;
+  transform: rotate(-25deg);
+  background: black;
+  border: 6px solid red;
+  border-radius: 20px;
+}
+
+.person-img:hover {
+  transform: rotate(0deg);
+  background: black;
+
+}
+
+.person-info {
+  width: 863px;
+  height: 312px;
+}
+
+.person-title {
+  height: 36px;
+  width: 50%;
+}
+
+.person-content {
+  height: 224px;
+  margin: 26px 0;
+}
+
+.person-para {
+  height: 20px;
+  background: black;
+  margin: 12px 0;
+}
+
+.person-para-last {
+  height: 20px;
+  background: black;
+  margin: 12px 0;
+  width: 50%;
+}
