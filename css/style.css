@@ -67,11 +67,51 @@ input[type="search"] {
   position: relative;
 }
 
-.featured-h1 {
+.featured-topic-div {
   position: absolute;
-  text-align: center;
   width: 100%;
   margin-top: 30px;
+}
+
+.featured-h1 {
+  width: 100%;
+  margin-left: 250px;
+  align-items: center;
+}
+
+.top-article {
+  background: black;
+  width: 250px;
+  height: 60px;
+}
+
+.btm-article {
+  background: black;
+  width: 150px;
+  height: 40px;
+}
+
+.serious {
+  margin-right: 60px;
+  align-items: center;
+}
+
+.left-red {
+  width: 60px;
+  height: 60px;
+  background: black;
+  margin-right: 20px;
+  transform: rotate(25deg);
+}
+
+.left-red:hover {
+  transform: rotate(0deg);
+}
+
+.right-red {
+  width: 150px;
+  height: 40px;
+  background: black;
 }
 
 .featured-top-right {
