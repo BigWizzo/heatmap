@@ -403,7 +403,8 @@ input[type="search"] {
 }
 
 .withouth p {
-  font: 2.25rem line-height: 3rem;
+  font: 2.25rem;
+  line-height: 3rem;
   text-align: center;
   margin-top: 25px
 }
