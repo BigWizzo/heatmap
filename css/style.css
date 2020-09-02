@@ -348,3 +348,77 @@ input[type="search"] {
   margin: 25px 485px;
   /* padding: 15px 19px; */
 }
+
+.latest-article {
+  display: flex;
+  justify-content: center;
+  width: 1306px;
+  height: 170px;
+  margin: 0 auto;
+  padding: 20px 0 101px;
+}
+
+.link-articles {
+  width: 216px;
+  height: 49px;
+  padding: 19px 0 8px;
+  text-align: center;
+}
+
+.shipping-section {
+  align-items: center;
+  width: 1338px;
+  height: 919px;
+  margin: 0 auto;
+  padding: 71px 0;
+}
+
+.meet {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  width: 779px;
+  height: 169px;
+}
+
+.mettop-article {
+  background: black;
+  width: 450px;
+  height: 60px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.metbtm-article {
+  background: black;
+  width: 250px;
+  height: 40px;
+  width: 70%;
+  
+}
+
+.withouth {
+  width: 783px;
+  height: 78px;
+}
+
+.withouth p{
+  font: 2.25rem
+  line-height: 3rem;
+  text-align: center;
+  margin-top:25px
+}
+
+.metmiddle-picture{
+  width: 920px;
+  height: 517px;
+  margin: 0 auto;
+  border: 2px solid green;
+}
+
+.metmiddle-picture:hover{
+  cursor: pointer;
+}
+
+
