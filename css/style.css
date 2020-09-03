@@ -579,3 +579,57 @@ input[type="search"] {
   height: 55.125%;
   padding: 2.445rem;
 }
+
+/* footer starts here */
+.footer {
+  align-items: center;
+}
+
+.browse {
+  width: 35%;
+  margin: 30px 0;
+}
+
+.tag-link {
+  align-items: center;
+  margin: 30px 0;
+}
+
+.tag-span {
+  width: 120px;
+  height: 40px;
+  background: black;
+  margin: 10px 15px;
+}
+
+.foot-para {
+  width: 380px;
+  margin: 10px;
+  background: black;
+  height: 15px;
+}
+
+.foot-lower {
+  width: 100%;
+  justify-content: space-around;
+  margin: 25px 0;
+}
+
+.tag-lw-span {
+  width: 80px;
+  height: 20px;
+  background: black;
+  margin: 8px 15px;
+}
+
+.lower-tag-div {
+  align-items: center;
+}
+
+.foot-box {
+  width: 100px;
+  height: 120px;
+  background: black;
+  position: relative;
+  bottom: 50px;
+}
