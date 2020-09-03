@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://kit.fontawesome.com/e252d07dd4.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/e252d07dd4.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="./css/style.css" />
     <title>Heatmap</title>
   </head>
@@ -11,7 +14,7 @@
   <body>
     <nav class="max-w nav-container">
       <div class="griditems1 boxes">1</div>
-      <div class="griditems2 boxes items">
+      <div class="griditems2 boxes d-grid">
         Article
         <!-- <div class="griditems3 items">Guide</div> -->
         <!-- <div class="griditems4 items">Books</div> -->
@@ -19,11 +22,11 @@
         <!-- <div class="griditems6 items">Membership</div> -->
         <!-- <div class="griditems7 items">More</div> -->
       </div>
-      <div class="griditems3 items">Guide</div>
-      <div class="griditems4 items">Books</div>
-      <div class="griditems5 items">Events</div>
-      <div class="griditems6 items">Membership</div>
-      <div class="griditems7 items">More</div>
+      <div class="griditems3 d-grid">Guide</div>
+      <div class="griditems4 d-grid">Books</div>
+      <div class="griditems5 d-grid">Events</div>
+      <div class="griditems6 d-grid">Membership</div>
+      <div class="griditems7 d-grid">More</div>
       <div class="griditems8 boxes">
         <input type="search" placeholder="Search articles" />
       </div>
@@ -31,12 +34,12 @@
 
     <!-- featured articles -->
     <div class="featured flex-col">
-      <div class="featured-topic-div flex-row">
-        <div class="featured-h1 flex-col">
+      <div class="featured-topic-div flex-row w-100">
+        <div class="featured-h1 flex-col-aic w-100">
           <div class="top-article">Article</div>
           <div class="btm-article">Article</div>
         </div>
-        <div class="serious flex-row">
+        <div class="serious flex-row-aic">
           <div class="left-red">side</div>
           <div class="right-red">side</div>
         </div>
@@ -109,7 +112,7 @@
     <!-- section for the first round of post -->
 
     <section>
-      <div class="posts-container">
+      <div class="posts-container flex-row-jcc">
         <div class="box">
           1
           <div class="time"></div>
@@ -137,11 +140,11 @@
       </div>
 
       <!-- middle section -->
-      <div class="middle-comntainer">
+      <div class="middle-comntainer flex-row">
         <div class="middle-images">
           <div class="signin"></div>
           <div class="shopify-container flex-col">
-            <div class="shopiitems">
+            <div class="shopiitems flex-col-aic">
               <p class="person-para"></p>
               <p class="person-para-last"></p>
             </div>
@@ -149,7 +152,7 @@
           </div>
         </div>
 
-        <div class="midde-img">
+        <div class="midde-img flex-col-aic">
           2
           <div class="middle-picture"></div>
           <h1 class="members"></h1>
@@ -167,7 +170,7 @@
         </div>
       </div>
       <!-- section for the 2nd round of post -->
-      <div class="bottompost-container">
+      <div class="bottompost-container flex-row-jcc">
         <div class="box">
           4
           <div class="time"></div>
@@ -205,27 +208,36 @@
         3
         <p class="middle-content"></p>
       </div>
-      <div class="news2">4 <button type="submit" class="large"></button></div>
+      <div class="news2 flex-row-jcc">
+        4 <button type="submit" class="large"></button>
+      </div>
       <div class="news1">
         5
         <p class="signin"></p>
       </div>
     </div>
-    <div class="latest-article">
+    <div class="latest-article flex-row-jcc">
       <div class="link-articles">Lorem ipsum dolor sit,</div>
     </div>
-    <div class="shipping-section flex-col">
+    <div class="shipping-section flex-col-aic">
       <h1 class="june">
         <p class="signin"></p>
       </h1>
-      <div class="meet">
+      <div class="meet flex-col-aic">
         <div class="mettop-article"></div>
         <div class="metbtm-article"></div>
       </div>
       <div class="withouth">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi tenetur eos mollitia provident hic nobis deleniti totam, laboriosam sint qui pariatur blanditiis quas sunt expedita delectus impedit temporibus eius ad?</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi tenetur
+          eos mollitia provident hic nobis deleniti totam, laboriosam sint qui
+          pariatur blanditiis quas sunt expedita delectus impedit temporibus
+          eius ad?
+        </p>
       </div>
-      <div class="our-newbooks"><button type="submit" class="large"></button></div>
+      <div class="our-newbooks">
+        <button type="submit" class="large"></button>
+      </div>
       <div class="cat-bird">
         <div class="metmiddle-picture"></div>
       </div>
@@ -336,12 +348,12 @@
     </div>
 
     <div class="clear-float"></div>
-    <div class="latest-article">
+    <div class="latest-article flex-row-jcc">
       <div class="link-articles"><a href="#">Lorem ipsum dolor sit</a></div>
     </div>
 
     <!-- design section -->
-    <div class="design-section flex-row">
+    <div class="design-section flex-row-jsb">
       <div class="design-content flex-col">
         <div class="smashing-book person-title title">smashing book</div>
         <div class="design-system top-article">design systems</div>
@@ -397,7 +409,7 @@
           <button type="submit" class="large book-button">jump button</button>
         </div>
       </div>
-      <div class="email-grid newsletter flex-col">
+      <div class="email-grid newsletter flex-col-aic">
         <div class="news-griditem1">
           <div class="news-picture"></div>
         </div>
@@ -414,9 +426,9 @@
     </div>
 
     <!-- footer section starts here -->
-    <div class="footer flex-col">
+    <div class="footer flex-col-aic">
       <div class="feature-name browse"></div>
-      <div class="tag-link flex-col">
+      <div class="tag-link flex-col-aic">
         <div class="top-tag flex-row">
           <span class="tag-span"></span>
           <span class="tag-span"></span>
@@ -448,9 +460,9 @@
         <p class="foot-para">three</p>
         <p class="foot-para">three</p>
       </div>
-      <div class="foot-lower flex-row">
+      <div class="foot-lower flex-row-jsa">
         <div class="foot-box"></div>
-        <div class="lower-tag-div flex-col">
+        <div class="lower-tag-div flex-col-aic">
           <div class="top-tag flex-row">
             <span class="tag-lw-span"></span>
             <span class="tag-lw-span"></span>
