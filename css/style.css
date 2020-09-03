@@ -568,8 +568,8 @@ input[type="search"] {
 }
 
 .tag-span {
-  width: 100px;
-  height: 30px;
+  width: 120px;
+  height: 40px;
   background: black;
   margin: 10px 15px;
 }
@@ -600,6 +600,8 @@ input[type="search"] {
 
 .foot-box {
   width: 100px;
-  height: 100px;
+  height: 120px;
   background: black;
+  position: relative;
+  bottom: 50px;
 }
