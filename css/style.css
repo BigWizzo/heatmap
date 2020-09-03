@@ -54,7 +54,7 @@
   display: grid;
   justify-content: center;
   align-content: center;
-  background-color: rgb(123, 123, 123);
+  /* background-color: #383737; */
   border-radius: 7px;
   text-decoration: none;
   padding: 10px;
@@ -75,36 +75,41 @@
   transform: rotate(0deg);
 }
 
-.items:hover {
-  background-color: gray;
-  border-radius: 7px;
-  text-decoration: none;
-  padding: 10px;
+/* section for background colors */
+.article-color {
+  background: #7d7c7c;
 }
 
-.items:hover {
-  background-color: gray;
-  border-radius: 7px;
-  text-decoration: none;
-  padding: 10px;
+.sec-color {
+  background: #5a5a5a;
 }
 
-.items:hover {
-  background-color: gray;
-  border-radius: 7px;
-  text-decoration: none;
-  padding: 10px;
+.third-color {
+  background: #848484;
+}
+
+.fourth-color {
+  background: #cccccc;
+}
+
+.fifth-color {
+  background: #383737;
 }
 
 .nav-container {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   padding: 1rem 2.5439rem;
+  background: #808080;
 }
 
 .griditems1 {
   width: 13.3556rem;
   background: url(/logo.png) no-repeat;
+}
+
+.griditems8 {
+  background: #d8d8d8;
 }
 
 input[type="search"] {
@@ -161,28 +166,28 @@ input[type="search"] {
 }
 
 .featured-top-right {
-  background-color: #16c753;
+  background-color: #777777;
   width: 50%;
   height: 40.625rem;
   padding: 198px 64px 0px 64px;
 }
 
 .featured-top-left {
-  background-color: green;
+  /* background-color: #5a5a5a; */
   width: 50%;
   height: 40.625rem;
   padding: 198px 64px 0px 64px;
 }
 
 .featured-btm-right {
-  background-color: blue;
+  background-color: #7b7070;
   width: 50%;
   height: 31.3125rem;
   padding: 59px 64px 0px 64px;
 }
 
 .featured-btm-left {
-  background-color: rgb(63, 54, 189);
+  /* background-color: #848484; */
   width: 50%;
   height: 31.3125rem;
   padding: 59px 64px 0px 64px;
@@ -248,14 +253,14 @@ input[type="search"] {
 .box {
   width: 27.625rem;
   margin: 0 5px;
-  background: darkgoldenrod;
+  /* background: #7d7c7c; */
   padding: 30px 40px 0;
   height: 22.3125rem;
   transition: 1s;
 }
 
 .box:hover {
-  background: crimson;
+  background: #b7b7b7;
   transform: scale(1.1);
 }
 
@@ -263,6 +268,7 @@ input[type="search"] {
   width: 85.625rem;
   height: 46.4425rem;
   margin: 0 auto;
+  /* background: #cccccc; */
 }
 
 .middle-img {
@@ -274,6 +280,7 @@ input[type="search"] {
 .middle-images {
   width: 25.4375rem;
   height: 12.8125rem;
+  /* background: #7d7c7c; */
 }
 
 .shopify-container {
