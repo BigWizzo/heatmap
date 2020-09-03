@@ -238,6 +238,27 @@ input[type="search"] {
   padding: 30px;
 }
 
+.midde-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.middle-images {
+  width: 407px;
+  height: 205px;
+}
+
+.shopify-container {
+  width: 400px;
+  height: 207px;
+}
+
+.shopiitems {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .bottompost-container {
   display: flex;
   background: #ddd;
@@ -255,10 +276,10 @@ input[type="search"] {
   margin: 0 auto;
 }
 
-/* .news1 { */
-/* width: 245px; */
-/* margin: 0 auto; */
-/* } */
+.news2 {
+  display: flex;
+  justify-content: center;
+}
 
 .time {
   font: 16px/32px;
@@ -306,6 +327,7 @@ input[type="search"] {
   border: 2px solid green;
   height: 55px;
   margin-top: 25px;
+  width: 100%;
 }
 
 .middle {
@@ -345,7 +367,7 @@ input[type="search"] {
   cursor: pointer;
   width: 310px;
   height: 55px;
-  margin: 25px 485px;
+  margin: 20px;
   /* padding: 15px 19px; */
 }
 
@@ -409,6 +431,10 @@ input[type="search"] {
   margin-top: 25px;
 }
 
+.our-newbooks {
+  margin: 50px 0;
+}
+
 .metmiddle-picture {
   width: 920px;
   height: 517px;
@@ -421,7 +447,7 @@ input[type="search"] {
 }
 
 .person-section {
-  margin: 60px 20px 0px 60px;
+  margin: 170px 20px 0px 60px;
   padding: 0px 16px;
 }
 
@@ -459,6 +485,7 @@ input[type="search"] {
   height: 20px;
   background: black;
   margin: 12px 0;
+  width: 100%;
 }
 
 .person-para-last {
@@ -580,6 +607,26 @@ input[type="search"] {
   padding: 2.445rem;
 }
 
+.newsletter {
+  width: 613px;
+  height: 745px;
+  align-items: center;
+}
+
+.news-picture {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  border: 2px solid green;
+}
+
+.news-griditem {
+  width: 535px;
+}
+.news-griditem1 {
+  width: 100%;
+  height: 344px;
+}
 /* footer starts here */
 .footer {
   align-items: center;
