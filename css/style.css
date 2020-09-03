@@ -551,3 +551,32 @@ input[type="search"] {
   margin: 25px 0;
   /* padding: 15px 19px; */
 }
+
+/* footer starts here */
+.footer {
+  align-items: center;
+}
+
+.browse {
+  width: 35%;
+  margin: 30px 0;
+}
+
+.tag-link {
+  align-items: center;
+  margin: 30px 0;
+}
+
+.tag-span {
+  width: 100px;
+  height: 30px;
+  background: black;
+  margin: 10px 15px;
+}
+
+.foot-para {
+  width: 380px;
+  margin: 10px;
+  background: black;
+  height: 15px;
+}
