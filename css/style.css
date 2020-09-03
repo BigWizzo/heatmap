@@ -580,3 +580,26 @@ input[type="search"] {
   background: black;
   height: 15px;
 }
+
+.foot-lower {
+  width: 100%;
+  justify-content: space-around;
+  margin: 25px 0;
+}
+
+.tag-lw-span {
+  width: 80px;
+  height: 20px;
+  background: black;
+  margin: 8px 15px;
+}
+
+.lower-tag-div {
+  align-items: center;
+}
+
+.foot-box {
+  width: 100px;
+  height: 100px;
+  background: black;
+}
