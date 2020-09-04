@@ -405,7 +405,7 @@ input[type="search"] {
 
 .shipping-section {
   width: 83.625rem;
-  height: 57.4375rem;
+  height: 64.4375rem;
   margin: 0 auto;
   padding: 71px 0;
 }
@@ -457,8 +457,9 @@ input[type="search"] {
 }
 
 .person-section {
-  margin: 170px 20px 0px 60px;
+  margin: 0 auto;
   padding: 0px 16px;
+  width: 81.625rem;
 }
 
 .person-img {
