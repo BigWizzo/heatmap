@@ -8,7 +8,7 @@ Design Teardown Heatmap
 
 #HTML and CSS: Design Teardown
 
-On the branch more-content we created the entire project that includes the styling and the skeleton of the HTML.
+We created a Heat Map to emulate the UX
 We applied flex boxes, floats, and CSS grids.
 
 ## Built With
