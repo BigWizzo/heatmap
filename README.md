@@ -6,7 +6,10 @@ Design Teardown Heatmap
 
 ![screenshot](./app_screenshot.png/)
 
-Additional description about the project and its features.
+#HTML and CSS: Design Teardown
+
+On the branch more-content we created the entire project that includes the styling and the skeleton of the HTML.
+We applied flex boxes, floats, and CSS grids.
 
 ## Built With
 
