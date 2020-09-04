@@ -10,7 +10,7 @@
 }
 
 .flex-col {
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
 }
 
@@ -27,7 +27,7 @@
 }
 
 .flex-row-aic {
-  display: flex;
+  /* display: flex; */
   align-items: center;
 }
 
