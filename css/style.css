@@ -54,6 +54,7 @@
   display: grid;
   justify-content: center;
   align-content: center;
+
   /* background-color: #383737; */
   border-radius: 7px;
   text-decoration: none;
@@ -89,7 +90,7 @@
 }
 
 .fourth-color {
-  background: #cccccc;
+  background: #ccc;
 }
 
 .fifth-color {
@@ -166,31 +167,31 @@ input[type="search"] {
 }
 
 .featured-top-right {
-  background-color: #777777;
+  background-color: #777;
   width: 50%;
   height: 40.625rem;
-  padding: 198px 64px 0px 64px;
+  padding: 198px 64px 0 64px;
 }
 
 .featured-top-left {
   /* background-color: #5a5a5a; */
   width: 50%;
   height: 40.625rem;
-  padding: 198px 64px 0px 64px;
+  padding: 198px 64px 0 64px;
 }
 
 .featured-btm-right {
   background-color: #7b7070;
   width: 50%;
   height: 31.3125rem;
-  padding: 59px 64px 0px 64px;
+  padding: 59px 64px 0 64px;
 }
 
 .featured-btm-left {
   /* background-color: #848484; */
   width: 50%;
   height: 31.3125rem;
-  padding: 59px 64px 0px 64px;
+  padding: 59px 64px 0 64px;
 }
 
 .feature-img {
@@ -253,6 +254,7 @@ input[type="search"] {
 .box {
   width: 27.625rem;
   margin: 0 5px;
+
   /* background: #7d7c7c; */
   padding: 30px 40px 0;
   height: 22.3125rem;
@@ -268,6 +270,7 @@ input[type="search"] {
   width: 85.625rem;
   height: 46.4425rem;
   margin: 0 auto;
+
   /* background: #cccccc; */
 }
 
@@ -280,6 +283,7 @@ input[type="search"] {
 .middle-images {
   width: 25.4375rem;
   height: 12.8125rem;
+
   /* background: #7d7c7c; */
 }
 
@@ -310,7 +314,6 @@ input[type="search"] {
 }
 
 .title {
-  font: 25px/50px;
   border: 2px dotted green;
   height: 35px;
   width: 95%;
@@ -318,7 +321,6 @@ input[type="search"] {
 }
 
 .author {
-  font: 16px/32px;
   border: 2px solid orange;
   height: 1.5625rem;
   width: 9.375rem;
@@ -417,7 +419,6 @@ input[type="search"] {
 
 .mettop-article {
   background: black;
-  width: 28.125rem;
   height: 3.75rem;
   width: 100%;
   margin-top: 30px;
@@ -434,8 +435,8 @@ input[type="search"] {
   height: 4.875rem;
 }
 
-.withouth p {
-  font: 2.25rem;
+.withouth-para {
+  font-size: 36px;
   line-height: 3rem;
   text-align: center;
   margin-top: 25px;
@@ -458,7 +459,7 @@ input[type="search"] {
 
 .person-section {
   margin: 0 auto;
-  padding: 0px 16px;
+  padding: 0 16px;
   width: 81.625rem;
 }
 
